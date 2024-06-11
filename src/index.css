@@ -1,0 +1,33 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.btn {
+  @apply font-bold py-2 px-4 rounded ml-2;
+}
+.btn-blue {
+  @apply bg-blue-500 text-white;
+}
+.btn-blue:hover {
+  @apply bg-blue-700;
+}
+
+.formAdd {
+  margin-top: 50px;
+  margin-left: 50px;
+}
+
+
+.clock-wrapper {
+  margin-left: 50px;
+  margin-top: 50px;
+}
+
+.container {
+  display: inline;
+  display: flex;
+}
+
+.clock {
+  @apply font-bold py-2 w-24 px-4 rounded ml-2 bg-blue-500 text-white
+}
